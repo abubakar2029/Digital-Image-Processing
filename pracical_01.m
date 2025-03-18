@@ -1,0 +1,7 @@
+clear all
+close all
+clc
+info = imfinfo("img_01.jpg");
+show = imshow("img_01.jpg");
+
+imageinfo(info)
